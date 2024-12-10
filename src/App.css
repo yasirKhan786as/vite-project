@@ -1,0 +1,289 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#header .header-div{
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+  
+
+}
+#header ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 1rem 3rem;
+}
+#header .header-div li{
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  
+  /* align-items: center; */
+  
+
+}
+#header .header-div :nth-child(2) input{
+  width: 25rem ;
+  height: 3rem;
+  border-radius: 10px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+/* Nav Bar */
+#navBar{
+  margin: 3rem 1rem 0rem 1rem;
+}
+#navBar ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  
+}
+#navBar ul li {
+  font-size: small;
+  font-weight: 500; 
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+#navBar ul li:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color: lightskyblue;
+  text-decoration: underline;
+}
+
+
+
+/*below navBar*/
+#below-navbar :nth-child(2){
+  opacity: 0.5;
+}
+
+#below-navbar{
+  margin: 2rem 2.3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+
+
+/* left right div */
+
+#Left-div{
+margin: 2.3rem 1rem 2.3rem 2.3rem;
+width: 754px;
+height: 635px;
+top: 231px;
+left: 30px;
+gap: 0px;
+border-radius: 10px;
+background: #F8F6F4;
+;
+
+}
+#Left-div #SewingMachineImg img{
+  position: absolute;
+  background-color: transparent;
+  mix-blend-mode: multiply;
+  width: 552px;
+  height: 552px;
+  top: 273px;
+  left: 141px;
+
+
+}
+
+#description-left-div #description-left-div-upperdiv{
+margin: 0rem 2.3rem;
+width: 711px;
+
+top: 231px;
+left: 30px;
+gap: 0px;
+border-radius: 10px;
+opacity: 0.5;
+
+
+}
+#description-left-div {
+  display: flex;
+
+}
+.description-left-div-customcomponent{
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+#Left-div #TableSmallImg ul{
+  list-style-type: none;
+
+}
+#Left-div #TableSmallImg ul li{
+ 
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+  cursor: pointer;
+
+
+}
+
+#Right-div{
+  margin: 2.3rem 2.3rem 2.3rem 1rem;
+  width: 754px;
+height: 635px;
+top: 237px;
+left: 816px;
+border-radius: 10px;
+
+}
+
+#left-right-flex{
+  display: flex;
+}
+
+#Right-div #below-rightdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Right-div #heart-button{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#Right-div #below-cheese h2{
+  margin: 1rem 0rem;
+}
+
+#Right-div span h2 span{
+  font-size: small;
+  font-weight: normal;
+  opacity: 0.5;
+  
+}
+ #below-39{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0rem;
+} 
+#below-39 #below-39-div{
+  display: flex;
+}
+#below-39 .scale{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+  
+}
+#below-39 #below-39-ref{
+  opacity: 0.5;
+  font-size: small;
+}
+
+#below-20cm p{
+  padding-top: 1.5rem;
+  opacity: 0.8;
+  font-size: medium;
+}
+
+#below-20cm-hr{
+  position:  relative;
+  top: 17rem; 
+
+}
+
+#below-20-cm-hr-div{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 18rem;overflow-x: x;
+}
+#below-20-cm-hr-div #below-20-cm-hr-div-button{
+  display: flex;
+  flex-direction: row;
+  /* justify-content:space-around; */
+  gap: 4rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.7rem;
+}
+#below-20-cm-hr-div-button button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: x-large;
+}
+#below-20-cm-hr-div-button p{
+
+  font-size: x-large;
+}
+#below-20-cm-hr-div-p{
+  background-color: #5CD2DD;
+  border-radius: 5px;
+  color: white;
+  font-size: x-large;
+  padding: 0.7rem 10rem;
+  cursor: pointer;
+}
+
+
+/*Below cheese box*/
+#below-cheese-addbox{
+  background: #F8F6F4;
+  border-radius: 5px;
+  width: 680px;
+  height: 62px;
+  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 0rem 1rem;
+ align-items: center;
+ font-size: large;
+  margin: 0rem 2.3rem;
+}
+
+
+
+/*slider object table width*/
+#sliderobjectid{
+  width: 100%;
+  display: flex;
+}
+.slider-object-table-width{
+  width: 473px;
+  margin: 1rem;
+}
+
+
+
+#below-slider-image img{
+  width: 100%;
+}
+
+
+#two-div{
+  display: flex;
+  margin: 1rem;
+  /* overflow: hidden; */
+}
+#two-div img{
+  width: 50%;
+  margin: 1rem;
+}
+
+
+#lastpartimage img{
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
