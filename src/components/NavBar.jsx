@@ -1,19 +1,14 @@
-export default function NavBar() {
+export default function NavBar({ScrollToShoes, ScrollToJeans, ScrollToShirts, ScrollToPants, ScrollToTShirts}) {
     return(
         <div id="navBar">
             <ul>
-                <li>ART DE LA TABLE </li>
-                <li>MOBILIER</li>
-                <li>NAPPAGE</li>
-                <li>MATERIAL DE SALLE</li>
-                <li>CUISIINE</li>
-                <li>BARBECUE</li>
-                <li>TENTE</li>
-                <li>CHAUFFAGE</li>
-                <li>PODIUN-PISTE DE SANSE</li>
-                <li>SONT ET LUMIERE</li>
-                <li>PACKS</li>
-                <li>CONSOMABLE</li>
+               <button onClick={ScrollToShoes}><li>Shoes</li></button>
+                <button onClick={ScrollToShirts}><li>Shirts</li></button>
+                <button onClick={ScrollToJeans}><li>Jeans</li></button>
+          
+                <button onClick={ScrollToTShirts}><li>T-Shirts</li></button>
+                
+               
             </ul>
         </div>
     )

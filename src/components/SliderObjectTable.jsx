@@ -1,17 +1,17 @@
 import styles from "./SliderObject.module.css"
 import HeartButton from "./HearButton"
 import TableImg from "../assets/Table.png"
-export default function SliderObjectTable({...props}) {
+export default function SliderObjectTable({shirts, ...props}) {
     return(
         <div className={styles.slider} {...props} >
         <div className={styles.sliderunder}>
             <div className={styles.sliderNav}>
             <HeartButton className={styles.sliderbutton}/>
-            <button className={styles.secondbutton}>ART DE LA TABLE</button>
+            <button className={styles.secondbutton}>Add to Cart</button>
             </div>
             
             <div className={styles.img}>
-                <img src={TableImg} alt="" />
+                <img src={shirts} alt="" />
         
         </div>
         </div>

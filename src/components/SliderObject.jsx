@@ -1,18 +1,19 @@
 import styles from "./SliderObject.module.css"
-import SliderObjectTable from "./SliderObjectTable"
+import { forwardRef } from "react"
 
-export default function SliderObject({title, desc,children, ...props},) {
+const SliderObject = forwardRef((props, ref) => {
     return(
-        <div className={styles.sliderobject} >
+        <div className={styles.sliderobject}  ref={ref} >
             <div className={styles.sliderobjectdiv}>
-            <span>{title}</span><span>{desc}</span>
+            <span>{props.title}</span><span>{props.desc}</span>
             </div>
             <div {...props}>
             
-            {children}
+            {props.children}
             
             
             </div>
         </div>
     )
-}
+})
+export default SliderObject;

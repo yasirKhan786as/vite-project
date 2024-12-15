@@ -68,12 +68,22 @@
 
 }
 
+
 .img {
     text-align: center;
+  overflow: hidden;
 }
 .img img{
     background-color: transparent;
   mix-blend-mode: multiply;
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+  
+  
 }
 
 .sliderbutton{
