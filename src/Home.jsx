@@ -78,7 +78,7 @@ function Home({setProductId, cartAllProduct}) {
     function AddToCart(id){
         
         setProductId(id);
-        toast.success('I love you so much jnnn!!');
+        toast.success('Added to Cart Successfully !!');
     }
     return (
       <>
