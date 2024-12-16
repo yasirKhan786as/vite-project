@@ -1,4 +1,4 @@
-import SewingMachine from "../assets/LeftRightDiv/Location Cheese big picture 1.png";
+import SewingMachine from "../assets/Shoes/pexels-chuck-3261068.jpg";
 import Table from "../assets/LeftRightDiv/Table ronde 165cm Festi 2.png";
 import Table2 from "../assets/LeftRightDiv/Group 98.png";
 import Table3 from "../assets/LeftRightDiv/Group 97.png";
@@ -32,7 +32,7 @@ export default function LeftRightDiv() {
           <div id="TableSmallImg">
             <ul>
               {/* <li><img src={Table} alt="image" /></li> */}
-              <li>
+              {/* <li>
                 <img src={Table2} alt="" />
               </li>
               <li>
@@ -40,7 +40,7 @@ export default function LeftRightDiv() {
               </li>
               <li>
                 <img src={Table4} alt="" />
-              </li>
+              </li> */}
             </ul>
           </div>
           <div id="SewingMachineImg">
@@ -54,12 +54,12 @@ export default function LeftRightDiv() {
 
         <div id="Right-div">
           <div id="below-rightdiv">
-            <h2>Cheese – appareil à raclette 1/2 roue</h2>
+            <h2>Nike Air Max 270</h2>
             <HeartButton id="heart-button" />
           </div>
           <span id="below-cheese">
             <h2>
-              39,50€ <span>/piece</span>
+            1799₹ <span>/piece</span>
             </h2>
           </span>
 
@@ -75,7 +75,7 @@ export default function LeftRightDiv() {
               <span className="scale">
                 <img src={Circle} alt="" />
                 <span>
-                  50<sup>cm</sup>
+                  10<sup>cm</sup>
                 </span>
               </span>
             </div>
@@ -87,13 +87,12 @@ export default function LeftRightDiv() {
           <hr />
           <div id="below-20cm">
             <p>
-            Location appareil à raclette - Raclette traditionnelle 1/2 roue<br/>
-            Réglable en hauteur<br/>
-            Appareil à raclette professionnel<br/>
-            Boîtier de chauffe horizontal réglable en hauteur<br/>
+            The **Nike Air Max 270** is a stylish, lightweight shoe designed for all-day comfort with its breathable mesh upper and the largest Air Max heel unit for exceptional cushioning.<br/>
+            Its durable rubber sole provides great tractionr<br/>
+            while the sleek design and versatile color options make it perfect for casual wear or light activity.
             <br/>
-            220V<br/>
-            900W
+            Lighter<br/>
+            Sleek Design
             </p>
             
           </div>
@@ -106,7 +105,7 @@ export default function LeftRightDiv() {
                 <button onClick={handleAdd}>+&nbsp;</button>
               </div>
               <div id="below-20-cm-hr-div-p">
-                Ajoute Au Panier
+               Buy Now
               </div>
           </div>
 
@@ -116,21 +115,13 @@ export default function LeftRightDiv() {
 
       <div id="description-left-div">
         <div id="description-left-div-upperdiv">
-        <h3>Description Produit</h3>
+        <h3>Description Product</h3>
         <p>
-          Festi vous propose à la location un/une "Jewel – grand couteau/10pc"
-          pour votre évenement et ce dès 0,35 € / pièce (HTVA). Que ce soit pour
-          votre mariage, une fête d'anniversaire ou du personnel, ce produit a
-          fait l'objet d'une sélection rigoureuse par notre équipe. Il est en
-          location chez nous sous la référence "VAJGC". Nous sommes à votre
-          disposition pour que les événements de nos clients, même en
-          last-minute, soient toujours une réussite. Vous pourrez trouver tout
-          une série d'autre produit à louer de ce type dans la catégorie "Art de
-          la Table".
+        The **Nike Air Max 270** is a stylish, lightweight shoe designed for all-day comfort with its breathable mesh upper and the largest Air Max heel unit for exceptional cushioning. Its durable rubber sole provides great traction, while the sleek design and versatile color options make it perfect for casual wear or light activity.
         </p>
         </div>
         <div>
-          <BelowCheese title="LIVRAISONS" className="description-left-div-customcomponent"/>
+          <BelowCheese title="REVIEWS" className="description-left-div-customcomponent"/>
           <BelowCheese title="QUESTIONS" className="description-left-div-customcomponent"/>
         </div>
   

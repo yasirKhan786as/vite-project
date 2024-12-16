@@ -81,8 +81,21 @@
   border: none;
   background: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  position: relative;
   
 }
+#header #header-div-img span{
+ position: absolute;
+ background-color: red;
+ font-size: large;
+color: white;
+padding: 0.3rem 0.5rem;
+border-radius: 100%;
+top: -8px;
+}
+
 #header #about-button{
   border: none;
   background: none;
@@ -158,12 +171,13 @@ position: relative;
 }
 #Left-div #SewingMachineImg img{
   position: absolute;
-  background-color: transparent;
-  mix-blend-mode: multiply;
+
   width: 552px;
   height: 552px;
-  top: 10%;
+  top: 7%;
   left: 10%;
+  border-radius: 5px;
+  
 
 
 }
@@ -336,6 +350,7 @@ border-radius: 10px;
 
 
 
+
 #below-slider-image img{
   width: 100%;
 }
@@ -357,3 +372,7 @@ border-radius: 10px;
   margin-top: 2rem;
   margin-bottom: 10rem;
 }
+
+/* #asdfg :hover{
+  background-color: #5CD2DD;
+} */

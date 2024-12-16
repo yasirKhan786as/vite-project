@@ -1,5 +1,5 @@
-import hearImg from "../assets/heart.svg";
-import RedHeartImg from "../assets/RedHeart.svg"
+import hearImg from "../assets/OtherImages/heart.svg";
+import RedHeartImg from "../assets/OtherImages/RedHeart.svg"
 import { useState } from "react";
 
 export default function HeartButton({...props}) {

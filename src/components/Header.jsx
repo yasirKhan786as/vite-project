@@ -1,11 +1,11 @@
-import search from "../assets/search-lg.svg";
-import weFrame from "../assets/logo img.webp";
 
-import heart from "../assets/heart.svg";
-import Cart from "../assets/cart-large-minimalistic-svgrepo-com.svg";
+import weFrame from "../assets/OtherImages/logo img.webp";
+import { NavLink } from "react-router-dom";
+import heart from "../assets/OtherImages/heart.svg";
+import Cart from "../assets/OtherImages/cart-large-minimalistic-svgrepo-com.svg";
 import video from "../assets/BackgroundVideo/12193997_3840_2160_25fps.mp4";
 
-export default function Header() {
+export default function Header({cartAllProduct}) {
   return (
     <>
       <div id="header">
@@ -40,7 +40,10 @@ export default function Header() {
           </li>
           <li id="header-div-img">
             <button>
+              <NavLink to="/cart">
             <img src={Cart} alt="" />
+            <span>{cartAllProduct.filter(obj => obj.id !== undefined && obj.id !== null).length}</span>
+            </NavLink>
             </button>
           </li>
         </div>

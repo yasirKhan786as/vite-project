@@ -42,9 +42,12 @@
     width: 333px;
    margin-left: 2.3rem;
 
+  }
   
 
-  }
+
+
+
   .sliderunder{
     background-color: #F8F6F4;
     border-radius: 10px;
@@ -58,13 +61,14 @@
     padding: 1rem 1.5rem;
 }
 .sliderunder .secondbutton{
-    background-color: white;
+    background-color: rgb(20, 157, 202);
     padding: 0rem;
     border-radius: 5px;
     cursor: pointer;
-    height: 1rem;
-    width: 5.5rem;
-    font-size: xx-small;
+    height: 1.5rem;
+    width: 6rem;
+    font-size: small;
+    color: white;
 
 }
 

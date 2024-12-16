@@ -1,0 +1,84 @@
+.button{
+    background-color: rgb(67, 179, 216);
+    border: none;
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 43%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 0rem 2rem;
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card{
+    background: #F8F6F4;
+    width: 98vw;
+    height: 20vh;
+    position: relative;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.card1 li img{
+    height: 17vh;
+    width: 15vw;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+.card1 ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0.7rem;
+    margin: 1rem;
+    gap: 2rem;
+ 
+}
+.card1 ul li{
+    list-style-type: none;
+}
+.card1 .titlePrice{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.card1 .titlePrice div{
+    background-color: #ffffff;
+    padding: 0rem 1rem;
+    border-radius: 10px;
+}
+.card1 .description{
+    width: 27rem;
+}
+.card1 .counter button{
+    font-size: x-large;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+  
+}
+.card1 .counter span{
+    font-size: x-large;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+}
+.deleteIcon {
+    font-size: 50px; 
+    color: red; 
+    border: none; 
+    background: none; 
+    cursor: pointer; 
+    background-color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 2rem;
+  }
