@@ -5,11 +5,11 @@ import Table3 from "../assets/LeftRightDiv/Group 97.png";
 import Table4 from "../assets/LeftRightDiv/Group 96.png";
 import Scale from "../assets/LeftRightDiv/scale.png";
 import Circle from "../assets/LeftRightDiv/circle.png";
-import HeartButton from "./HearButton";
+import HeartButton from "./HeartButton";
 
 
 import { useState } from "react";
-import BelowCheese from "./BelowCheese";
+import BelowCheese from "./Questionnaire";
 
 export default function LeftRightDiv() {
 

@@ -62,9 +62,7 @@ export default function Cart({cartAllProduct, setCartAllProduct}) {
                       
                           
                 )}
-                else{
-                 
-                }
+            
                 })}
 
             </div>

@@ -1,8 +1,8 @@
 import Header from './components/Header'
 import NavBar from './components/NavBar'
-import LeftRightDiv from './components/LeftRightDiv'
+import LeftRightDiv from './components/productBox'
 import SliderObject from './components/SliderObject'
-import SliderObjectTable from './components/SliderObjectTable'
+import SliderObjectTable from './components/SliderObjectCard'
 import './App.css'
 import toast, { Toaster } from 'react-hot-toast';
 
@@ -10,6 +10,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useRef } from 'react'
 import { Card, Card1, Card2, Card3} from './data'
+import { getCartItems } from './utils/api'
 
 
 

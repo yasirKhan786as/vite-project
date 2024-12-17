@@ -1,5 +1,5 @@
 import styles from "./SliderObject.module.css";
-import HeartButton from "./HearButton";
+import HeartButton from "./HeartButton";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function SliderObjectTable({
